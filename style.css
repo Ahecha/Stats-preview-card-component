@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(233, 47%, 7%);
+
+}
+
+main {
+    width: 85%;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5%;
+}
+
+.main-img {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    padding: 7% 0;
+}
+
+.main-paraph {
+    text-align: center;
+    font-size: 0.8rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.second-section {
+    padding: 6% 10%;
+}
+
+.list-section {
+    padding: 10% 0;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+li {
+    padding: 5% 0;
+}
+
+.number-list {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    
+}
+
+.list-text {
+    color:   hsla(0, 0%, 100%, 0.6);
+    font-family: "Lexend Dec", sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
