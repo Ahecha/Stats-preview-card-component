@@ -8,8 +8,10 @@
 
 body {
     width: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: hsl(233, 47%, 7%);
     padding: 10vh 0;
 
